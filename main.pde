@@ -43,7 +43,7 @@ void keyPressed() {
     float y = b[i]-b[9];
     float d = sqrt(x*x+y*y);
     if(d<60){
-    delay(80);
+    delay(1000);
     gameover();      
     }
   }
